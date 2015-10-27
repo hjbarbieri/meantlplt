@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', [
+angular.module('app', [
 'ui.router','app.posts'
 ]).run(['$state',function($state){
     $state.go('allPosts');

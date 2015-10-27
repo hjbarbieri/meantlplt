@@ -1,1 +1,1 @@
-filters.js
+angular.module('app.posts.filters',[]);

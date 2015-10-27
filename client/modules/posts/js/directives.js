@@ -1,1 +1,1 @@
-directives.js
+angular.module('app.posts.directives',[]);
