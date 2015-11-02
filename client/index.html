@@ -5,16 +5,21 @@
   <meta charset="utf-8">
   <base href="/">
   <title>The Single Page Blogger</title>
+  <script src="lib/angular/jquery.js"></script>
+  <script src="lib/angular/bootstrap.js"></script>
   <link rel="stylesheet" href="modules/posts/css/post.css">
+   <link rel="stylesheet" href="app/css/app.css">
 
   <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="modules/admin/css/admin.css">
+  
   <style>
     body {
       padding-top: 60px;
     }
   </style>
+  
+
 
 
 </head>
@@ -26,7 +31,7 @@
       <h1>The Single Page Blogger</h1>
       <p>One stop blogging solution</p>
     </div>
-    <div ui-view></div>
+    <div ui-view class="main-content">Loading . . .</div>
     <div class="row footer">
       <div class="col-xs-12 text-center">
         <p>The Single Page Blogger
@@ -43,6 +48,9 @@
   <script src="modules/posts/postModule.js"></script>
   <script src="modules/posts/js/controllers.js"></script>
   <script src="modules/posts/js/services.js"></script>
+  <script src="modules/admin/adminModule.js"></script>
+  <script src="modules/admin/js/controllers.js"></script>
+  <script src="modules/admin/js/services.js"></script>
   <script src="modules/posts/js/filters.js"></script>
   <script src="modules/posts/js/directives.js"></script>
 

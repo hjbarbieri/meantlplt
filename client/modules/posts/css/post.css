@@ -1,13 +1,13 @@
 .postTitle{
-	margin: 0;
+    margin: 0;
 }
 .cross-btn{
-	cursor:pointer;
-	font-size:22px;
-	font-weight:bold;
+    cursor:pointer;
+    font-size:22px;
+    font-weight:bold;
 }
 .postContent{
-	text-align:justify;
+    text-align:justify;
 }
 .bottom-buffer{
     margin-bottom:10px;
