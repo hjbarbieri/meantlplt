@@ -16,16 +16,14 @@
 <div class="form-group" ng-class="{'has-error':postForm.tags.$dirty && postForm.tags.$invalid}">
 	<label for="tags" class="col-sm-2 control-label">Tags</label>
 	<div class="col-sm-10">
-		<input type="text" name="tags" class="form-control" id="tags"
-		ng-pattern="/^[\w,]+$/" ng-model="post.tags" placeholder="Comma separated tags"/>
+		<input type="text" name="tags" class="form-control" id="tags" ng-pattern="/^[\w,]+$/" ng-model="post.tags" placeholder="Comma separated tags" />
 		<span class="error-message" ng-show="postForm.tags. $dirty && postForm.tags.$invalid">Sorry! No special characters allowed here.</span>
 	</div>
 </div>
 <div class="form-group" ng-class="{'has-error':postForm.keywords. $dirty && postForm.keywords.$invalid}">
 	<label for="keywords" class="col-sm-2 control-label">Keywords</label>
 	<div class="col-sm-10">
-		<input type="text" name="keywords" class="form-control"
-		id="keywords" ng-pattern="/^[\w,]+$/" ng-model="post.keywords" placeholder="Comma separated keywords"/>
+		<input type="text" name="keywords" class="form-control" id="keywords" ng-pattern="/^[\w,]+$/" ng-model="post.keywords" placeholder="Comma separated keywords" />
 		<span class="error-message" ng-show="postForm.keywords.$dirty && postForm.keywords.$invalid">Sorry! No special characters allowed here</span>
 	</div>
 </div>
@@ -34,4 +32,3 @@
 		<button type="submit" class="btn btn-success" ng-disabled="postForm.$invalid">{{buttonText}}</button>
 	</div>
 </div>
-
