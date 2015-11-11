@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.posts',['app.posts.controllers','app.posts.services']).config(['$stateProvider','$locationProvider', function($stateProvider,$locationProvider){
+angular.module('app.posts',['app.posts.controllers','app.posts.services','app.posts.directives']).config(['$stateProvider','$locationProvider', function($stateProvider,$locationProvider){
     $stateProvider.state('allPosts',{
        url:'/posts',
        templateUrl:'modules/posts/views/posts.html',
