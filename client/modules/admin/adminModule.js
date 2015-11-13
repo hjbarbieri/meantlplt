@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.admin',['app.admin.controllers','app.admin.services']).config(['$stateProvider', function($stateProvider){
+angular.module('app.admin',['app.admin.controllers','app.admin.services','app.admin.filters']).config(['$stateProvider', function($stateProvider){
     $stateProvider.state('admin',{
         url:'/admin',
         abstract:true,
